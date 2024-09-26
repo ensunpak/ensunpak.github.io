@@ -1,0 +1,244 @@
+@media screen and (max-width: 430px) {
+
+    body  {
+        height: 4200px;
+    }
+
+    .nav_hamburger {
+        display: flex;
+    }
+
+    .header_container {
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    /* NAV LIST */
+    .nav_list {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .logo_mobile_container {
+        display: block;
+
+    }
+
+    .logo_mobile {
+        font-size: 1.2rem;
+        font-weight: 600;
+        letter-spacing: -1px;
+    }
+
+    .logo_subtitle_mobile {
+        font-size: 0.85rem;
+        font-weight: 500;
+        letter-spacing: -1px;
+        color: #888;
+    }
+
+    .btn_resume_mobile {
+        position: absolute;
+        top: -4px;
+        right: 50px;
+        border-radius: 5000px;
+        background: linear-gradient(80deg, darkblue, darkmagenta);
+        color: white;
+        font-size: 12px;
+        padding: 8px 20px;
+    }
+    
+
+    /* MAIN SECTION */
+    #section_main {
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    .header_container h1 {
+        font-size: 1.5rem;
+    }
+
+    .img_headshot {
+        margin-top: 20px;
+        margin-left: 0px;
+        display: block;
+        text-align: center;
+    }
+
+    .section_main_title {
+        font-size: 2.2rem;
+    }
+
+    .section_main_text {
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+
+    /* ABOUT ME SECTION */
+    #section_about_me {
+        padding: 0px;
+        padding-top:80px;
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    .about_me_container {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+    }
+
+    .section_about_me_title {
+        color: darkblue;
+        font-size: 1.5rem;
+        margin-bottom: 2px;
+        font-weight: 700;
+    }
+
+    .spacer_about_me_experience {
+        height: 10px;
+    }
+
+    /* EXPERIENCE SECTION */
+    #section_experience {
+        display: flex;
+        flex-direction: column;
+        padding-top: 80px;
+        margin-left: 5%;
+        width: 90%
+    }
+
+    .experience_container {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        max-width: 100%;
+    }
+
+    .section_experience_title {
+        color: darkblue;
+        font-size: 1.5rem;
+        margin-bottom: 2px;
+    }
+
+    .section_experience_button {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .experience_details_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-top: 40px;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .experience_skills_container {
+        margin-top: 10px;
+    }
+
+    .experience_details_education,
+    .experience_details_skills {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    .experience_skills {
+        line-height: 7px;
+    }
+
+    /* PROJECT SECTION */
+
+    .spacer_experience_projects {
+        height: 20px;
+    }
+
+    #section_projects {
+        padding: 0px;
+        padding-top: 80px;
+        margin-top: 40px;
+        margin-bottom: 0px;
+        width: 100%;
+    }
+
+    .projects_container {
+        padding: 0px;
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    .section_projects_title {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    .projects_project_container {
+        width: 100%;
+        align-items: center;
+    }
+
+    .projects_details_container1,
+    .projects_details_container2 {
+        margin-left: 5%;
+        padding-left: 0px;
+        justify-content: center;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .tech_stack_list {
+        width: 80%;
+        flex-flow: wrap;
+
+    }
+
+    /* CONTACT SECTION */
+
+    .spacer_projects_contact {
+        height: 40px;
+    }
+
+    #contact {
+        margin-top: 20px;
+        width: 100%;
+        padding-top: 80px;
+    }
+
+    .contact_container {
+        padding: 0px;
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    .section_contact_title {
+        font-size: 1.5rem;
+        width: 90%;
+    }
+    
+    .section_contact_text {
+        width: 90%;
+    }
+
+    .contact_socials {
+        margin: 0px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    /* FOOTER SECTION */
+    
+    .section_footer {
+        margin-top: -5px;
+        padding-bottom: 10px;
+    }
+}
