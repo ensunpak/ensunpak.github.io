@@ -19,7 +19,8 @@ a {
 }
 
 body {
-    background-color: #eaeff3;
+    /* background-color: #eaeff3; */
+    background-color: white;
     font-family: Inter, sans-serif;
     height: 3920px;
     padding-top: 60px;
@@ -27,12 +28,13 @@ body {
 
 /* NAVIGATION BAR STYLING */
 .header {
-    background-color: rgba(255, 255, 255, 0.7);
+    /* background-color: rgba(255, 255, 255, 0.7); */
+    background-color: rgba(240, 240, 240, 1);
     border-bottom: 1px solid rgb(212, 217, 219);
     position: fixed;
     top: 0px;
     width: 100%;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(5px);
 }
 
 .header_content {

@@ -1,7 +1,7 @@
 @media screen and (max-width: 430px) {
 
     body  {
-        height: 4500px;
+        height: 4810px;
     }
 
     .nav_hamburger {
@@ -29,7 +29,6 @@
 
     .logo_mobile_container {
         display: block;
-
     }
 
     .logo_mobile {
