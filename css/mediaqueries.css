@@ -1,7 +1,7 @@
 @media screen and (max-width: 430px) {
 
     body  {
-        height: 4810px;
+        height: 5000px;
     }
 
     .nav_hamburger {
@@ -194,11 +194,20 @@
     .section_projects_title {
         width: 100%;
         font-size: 1.5rem;
+        margin-bottom: 5px;
+    }
+
+    .section_projects_text {
+        line-height: 32px;
     }
 
     .projects_project_container {
         width: 100%;
         align-items: center;
+    }
+
+    .project_item_text {
+        line-height: 24px;
     }
 
     .projects_details_container1 {
@@ -234,7 +243,7 @@
     /* CONTACT SECTION */
 
     #contact {
-        padding-top: 6vh;
+        padding-top: 8vh;
         padding-left: 0;
         margin-left: 5%;
         width: 90%;
@@ -247,11 +256,11 @@
 
     .section_contact_title {
         font-size: 1.5rem;
-        width: 100%;
+        margin-bottom: 5px;
     }
     
     .section_contact_text {
-        width: 100%;
+        line-height: 32px;
     }
 
     .contact_socials {
